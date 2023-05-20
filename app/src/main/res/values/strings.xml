@@ -2,4 +2,12 @@
     <string name="app_name">Bezdelnik</string>
 
     <string name="main_text">Click me</string>
+
+    <string name="text_0000">Cook a meal</string>
+    <string name="text_0001">Wash the floors</string>
+    <string name="text_0002">Clean up the room</string>
+    <string name="text_0003">Listen to music</string>
+    <string name="text_0004">CLearn 10 foreign words</string>
+    <string name="text_0005">Go to the cinema</string>
+
 </resources>

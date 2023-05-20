@@ -24,11 +24,14 @@ public class MainActivity extends AppCompatActivity {
         random = new Random();
 
         ArrayList arrayList = new ArrayList();
-        arrayList.add("Text 0");
-        arrayList.add("Text 1");
-        arrayList.add("Text 2");
-        arrayList.add("Text 3");
-        arrayList.add("Text 4");
+        arrayList.add(getString(R.string.text_0000));
+        arrayList.add(getString(R.string.text_0001));
+        arrayList.add(getString(R.string.text_0002));
+        arrayList.add(getString(R.string.text_0003));
+        arrayList.add(getString(R.string.text_0004));
+        arrayList.add(getString(R.string.text_0005));
+
+
 
 
         mainText.setOnClickListener(new View.OnClickListener() {
