@@ -1,10 +1,10 @@
 package com.example.bezdelnik;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     TextView mainText;
 
+    ArrayList arrayList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,16 +25,9 @@ public class MainActivity extends AppCompatActivity {
         mainText = findViewById(R.id.main_text);
         random = new Random();
 
-        ArrayList arrayList = new ArrayList();
-        arrayList.add(getString(R.string.text_0000));
-        arrayList.add(getString(R.string.text_0001));
-        arrayList.add(getString(R.string.text_0002));
-        arrayList.add(getString(R.string.text_0003));
-        arrayList.add(getString(R.string.text_0004));
-        arrayList.add(getString(R.string.text_0005));
+        arrayList = new ArrayList();
 
-
-
+        addTextToArrayList();
 
         mainText.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,5 +36,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void addTextToArrayList() {
+
+        arrayList.add(getString(R.string.text_0000));
+        arrayList.add(getString(R.string.text_0001));
+        arrayList.add(getString(R.string.text_0002));
+        arrayList.add(getString(R.string.text_0003));
+        arrayList.add(getString(R.string.text_0004));
+        arrayList.add(getString(R.string.text_0005));
     }
 }
