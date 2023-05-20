@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Бездельник</string>
+
+    <string name="main_text">Нажми меня</string>
+
+    <string name="text_0000">Приготовь еды</string>
+    <string name="text_0001">Помой полы</string>
+    <string name="text_0002">Сделай уборку в комнате</string>
+    <string name="text_0003">Послушай музыку</string>
+    <string name="text_0004">Выучи 10 иностранных слов</string>
+    <string name="text_0005">Сходи в кино</string>
+
+</resources>
